@@ -1,0 +1,21 @@
+{
+  "name": "swebok-3d-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D learning map of the Software Engineering Body of Knowledge (SWEBOK)",
+  "author": "Nader Montazeri",
+  "license": "MIT",
+  "scripts": {
+    "build": "bash build/build.sh",
+    "start": "npx --yes serve -l 4173 ."
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}

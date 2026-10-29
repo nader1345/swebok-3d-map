@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نقشهٔ سه‌بعدی مهندسی نرم‌افزار | ۱۵ حوزهٔ دانش و ۳ پایه</title>
+<meta name="description" content="اینفوگرافیک تعاملی و سه‌بعدی مهندسی نرم‌افزار به زبان فارسی: ۱۵ حوزهٔ دانش (از نیازمندی‌ها و معماری تا امنیت و اقتصاد) به‌همراه ۳ حوزهٔ پایه، با توضیح آموزشی کامل برای هر حوزه و هر سرفصل.">
+<meta name="theme-color" content="#fde3d8">
+<meta name="author" content="نادر منتظری">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:title" content="نقشهٔ سه‌بعدی مهندسی نرم‌افزار">
+<meta property="og:description" content="روی هر حوزه بزنید تا به مرکز بیاید و سرفصل‌هایش دورش بچرخند؛ توضیح آموزشی کامل برای ۱۸ حوزه و همهٔ سرفصل‌ها — فارسی و تعاملی.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="نقشهٔ سه‌بعدی مهندسی نرم‌افزار">
+<meta name="twitter:description" content="اینفوگرافیک تعاملی فارسی از ۱۵ حوزهٔ دانش مهندسی نرم‌افزار و ۳ حوزهٔ پایه.">
+<meta name="twitter:image" content="og-image.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="bg"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+<div id="stage"></div>
+
+<header class="top">
+  <button id="home" class="brand" aria-label="صفحهٔ اصلی">
+    <span class="logo"><i></i><i></i><i></i></span>
+    <span><b>نقشهٔ سه‌بعدی مهندسی نرم‌افزار</b><small>۱۵ حوزهٔ دانش · ۳ حوزهٔ پایه</small></span>
+  </button>
+  <nav id="crumbs" class="crumbs" aria-label="مسیر"></nav>
+  <button id="legendBtn" class="legend-btn" type="button" aria-label="فهرست">فهرست</button>
+  <button id="lang" class="lang" type="button" aria-label="Switch to English">EN</button>
+  <button id="back" class="back off" aria-label="بازگشت"><span class="back-arrow">→</span> <span class="back-text">بازگشت</span></button>
+</header>
+
+<div id="legendScrim" class="legend-scrim"></div>
+<aside id="legendSheet" class="legend-sheet" aria-hidden="true">
+  <div class="legend-head"><b id="legendTitle">حوزه‌های دانش</b><button type="button" id="legendClose" class="legend-close">بستن</button></div>
+  <div id="legendList" class="legend-list"></div>
+</aside>
+
+<div id="glossScrim" class="gloss-scrim"></div>
+<aside id="glossSheet" class="gloss-sheet" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="glossTitle">
+  <div class="gloss-head">
+    <button type="button" id="glossBack" class="gloss-back" hidden><span class="back-arrow">→</span> <span class="gloss-back-text">بازگشت</span></button>
+    <b id="glossTitle"></b>
+    <button type="button" id="glossClose" class="gloss-close">بستن</button>
+  </div>
+  <div id="glossBody" class="gloss-body"></div>
+</aside>
+
+<div id="caption" class="caption" aria-live="polite"><span class="cap-num"></span><span class="cap-name"></span></div>
+
+<aside id="panel" class="panel" aria-live="polite">
+  <div class="pbar"><button id="pback" class="pback"><span class="back-arrow">→</span> <span class="back-text">بازگشت</span></button><span class="grab"></span><kbd>Esc</kbd></div>
+  <div id="pbody" class="pbody"></div>
+</aside>
+
+<div class="hintbar" id="hintbar" data-fa="روی هر حوزه بزنید تا به مرکز بیاید · روی مرکز بزنید برای توضیح کامل" data-en="Tap a knowledge area to bring it to the center · Tap the center for the full explanation">روی هر حوزه بزنید تا به مرکز بیاید · روی مرکز بزنید برای توضیح کامل</div>
+<footer class="credit">نادر منتظری <span>·</span> توسعه‌دهندهٔ فول‌استک | بانکداری و فین‌تک</footer>
+<div id="dcur" class="dcur"></div>
+<noscript><p style="padding:2rem">برای نمایش این اینفوگرافیک، جاوااسکریپت را فعال کنید.</p></noscript>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
